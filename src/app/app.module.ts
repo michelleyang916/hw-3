@@ -9,6 +9,13 @@ import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { RegistrationPage } from '../pages/registration/registration';
 import { ProfilePage } from '../pages/profile/profile';
+import { ProductsPage } from '../pages/products/products';
+import { Pastry1Page } from '../pages/pastry1/pastry1';
+import { Pastry2Page } from '../pages/pastry2/pastry2';
+import { Pastry3Page } from '../pages/pastry3/pastry3';
+import { Pastry4Page } from '../pages/pastry4/pastry4';
+import { PaymentPage } from '../pages/payment/payment';
+import { CartPage } from '../pages/cart/cart';
 
 @NgModule({
   declarations: [
@@ -16,7 +23,14 @@ import { ProfilePage } from '../pages/profile/profile';
     HomePage,
     LoginPage,
     RegistrationPage,
-    ProfilePage
+    ProfilePage,
+    ProductsPage,
+    Pastry1Page,
+    Pastry2Page,
+    Pastry3Page,
+    Pastry4Page,
+    PaymentPage,
+    CartPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +42,14 @@ import { ProfilePage } from '../pages/profile/profile';
     HomePage,
     LoginPage,
     RegistrationPage,
-    ProfilePage
+    ProfilePage,
+    ProductsPage,
+    Pastry1Page,
+    Pastry2Page,
+    Pastry3Page,
+    Pastry4Page,
+    PaymentPage,
+    CartPage
   ],
   providers: [
     StatusBar,

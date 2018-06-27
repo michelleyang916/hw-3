@@ -1,21 +1,19 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { RegistrationPage } from '../registration/registration';
+import { ProductsPage } from '../products/products';
 
 @Component({
-  selector: 'page-login',
-  templateUrl: 'login.html'
+    selector: 'page-login',
+    templateUrl: 'login.html'
 })
 export class LoginPage {
 
-  constructor(public navCtrl: NavController) {}
+    constructor(public navCtrl: NavController) { }
 
-  navigateToLogin() {
-    console.log("Navigating...");
+    navigateToRegistration() {
+        console.log("Navigating...");
 
-    this.navCtrl.push(RegistrationPage);
-    
-  }
-
-
+        this.navCtrl.push(RegistrationPage);
+    }
 }

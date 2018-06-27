@@ -9,11 +9,15 @@
 <ion-content padding>
   
   <button ion-button color="secondary" (click)="navigateToRegistration()">Registration</button>
+  <button ion-button color="secondary" (click)="navigateToProducts()">Products</button>
 
+  <div *ngFor="let name of names">
+      {{name}}
+  </div>
 
   <ion-list>
 
-    <ion-item>
+    <ion-item> ng4
       <ion-label fixed>Username</ion-label>
       <ion-input type="text"></ion-input>
     </ion-item>

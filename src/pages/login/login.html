@@ -1,7 +1,26 @@
 <ion-header>
-        <ion-navbar>
-          <ion-title>
+    <ion-navbar>
+        <ion-title>
             Ionic Blank
-          </ion-title>
-        </ion-navbar>
-      </ion-header>
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    Welcome to the login page
+
+    <button ion-button color="secondary" (click)="navigateToProducts()">Products</button>
+
+    <ion-input [(ngModel)]="email"></ion-input>
+
+    <button ion-button (click)="pressMe('Arg1', '50')">Press me</button>
+
+    <div *ngFor="let name of names">
+        {{name}}
+    </div>
+
+    <div *ngIf="flag==true">
+        Render this
+    </div>
+
+</ion-content>
